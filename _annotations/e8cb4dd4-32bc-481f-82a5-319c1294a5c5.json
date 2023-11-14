@@ -1,0 +1,38 @@
+---
+canvas: "https://www.digitalcollections.manchester.ac.uk/iiif/MS-GREEK-P-00457/canvas/1"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Hello",
+            "purpose": "commenting",
+            "creator": {
+                "id": "mmrj5395",
+                "name": "mmrj5395"
+            },
+            "created": "2023-11-14T11:40:38.691Z",
+            "modified": "2023-11-14T11:40:39.437Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://www.digitalcollections.manchester.ac.uk/iiif/MS-GREEK-P-00457",
+                "type": "Manifest"
+            },
+            "id": "https://www.digitalcollections.manchester.ac.uk/iiif/MS-GREEK-P-00457/canvas/1",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1559.394287109375,2523.2919921875,1584.627197265625,444.099365234375"
+        }
+    },
+    "id": "e8cb4dd4-32bc-481f-82a5-319c1294a5c5.json",
+    "motivation": "commenting"
+}
